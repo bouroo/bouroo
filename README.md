@@ -26,7 +26,7 @@ observability to know when something is wrong. I care about systems that stay
 understandable as they grow.
 
 - 🔭 Currently building a cloud-native, distributed service core in Go
-- 🧰 Comfortable across the stack: service design → deployment → on-call
+- 🧰 Comfortable across the stack: service design → deployment → sleep
 - 🌱 Exploring Rust for systems-level and low-latency work
 - 📍 Khon Kaen, Thailand · open to remote
 
@@ -88,8 +88,8 @@ understandable as they grow.
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api?username=bouroo&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github" alt="GitHub stats" />
-<img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=bouroo&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&card_width=320" alt="Top languages" />
+<img height="165" src="https://github-readme-stats-umber.vercel.app/api?username=bouroo&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github" alt="GitHub stats" />
+<img height="165" src="https://github-readme-stats-umber.vercel.app/api/top-langs/?username=bouroo&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&card_width=320" alt="Top languages" />
 
 <br />
 
