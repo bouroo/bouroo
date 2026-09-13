@@ -32,19 +32,6 @@ understandable as they grow.
 
 ---
 
-## Featured Projects
-
-| Project | Stack | What it is |
-| :--- | :--- | :--- |
-| **[goAthena](https://github.com/bouroo/goAthena)** | ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) | A re-engineered rAthena architecture with a cloud-native Go core |
-| **[rs-wsProxy](https://github.com/bouroo/rs-wsProxy)** | ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white) | Dynamic WebSocket → TCP proxy that routes to multiple backends |
-| **[agents](https://github.com/bouroo/agents)** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) | One source of truth for agent config, symlinked into each tool |
-| **[nullable](https://github.com/bouroo/nullable)** | ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) | Nullable types for Go, built on `database/sql` |
-| **[tlv-parser](https://github.com/bouroo/tlv-parser)** | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | Zero-dependency recursive TLV parser in pure ES Modules |
-| **[go-time](https://github.com/bouroo/go-time)** | ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) | Buddhist Era (BE) time type, compatible with `time.Time` |
-
----
-
 ## Tech Stack
 
 <div align="center">
