@@ -1,0 +1,43 @@
+name: Stats snapshots
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [".github/workflows/stats.yml"]
+permissions:
+  contents: write
+concurrency:
+  group: stats
+  cancel-in-progress: false
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch cards
+        run: |
+          mkdir -p assets/stats
+          fetch() {
+            curl -fsSL --retry 3 --retry-delay 5 "$1" -o "assets/stats/$2"
+          }
+          fetch "https://streak-stats.demolab.com/?user=bouroo&theme=tokyonight&hide_border=true" streak.svg
+          fetch "https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=bouroo&theme=tokyonight" summary.svg
+          fetch "https://github-readme-stats-umber.vercel.app/api?username=bouroo&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github" stats.svg
+          fetch "https://github-readme-stats-umber.vercel.app/api/top-langs/?username=bouroo&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&card_width=320" langs.svg
+          if grep -qiE 'something went wrong|maximum retries|rate limit' assets/stats/*.svg; then
+            echo "::error::Card service returned an error SVG"
+            exit 1
+          fi
+      - name: Commit changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/stats
+          if git diff --cached --quiet; then
+            echo "No changes"
+            exit 0
+          fi
+          git commit -m "chore: refresh stats snapshots"
+          git push

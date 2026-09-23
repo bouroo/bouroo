@@ -88,16 +88,16 @@ understandable as they grow.
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=bouroo&theme=tokyonight&hide_border=true" alt="Commit streak" />
+<img src="assets/stats/streak.svg" alt="Commit streak" />
 
 <br />
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=bouroo&theme=tokyonight" alt="Contribution summary" />
+<img src="assets/stats/summary.svg" alt="Contribution summary" />
 
 <br />
 
-<img height="165" src="https://github-readme-stats-umber.vercel.app/api?username=bouroo&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github" alt="GitHub stats" />
-<img height="165" src="https://github-readme-stats-umber.vercel.app/api/top-langs/?username=bouroo&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&card_width=320" alt="Top languages" />
+<img height="165" src="assets/stats/stats.svg" alt="GitHub stats" />
+<img height="165" src="assets/stats/langs.svg" alt="Top languages" />
 
 </div>
 
