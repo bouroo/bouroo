@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Kawin Viriyaprasopsook's GitHub Stats, Rank: A+</title>
-        <desc id="descId">Total Stars Earned: 8, Total Commits  : 8, Total PRs: 293, Total Issues: 8, Contributed to (last year): 5</desc>
+        <desc id="descId">Total Stars Earned: 8, Total Commits  : 8, Total PRs: 294, Total Issues: 8, Contributed to (last year): 6</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -67,7 +67,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 115.37253299564637;
+        stroke-dashoffset: 115.3569897909494;
       }
     }
   
@@ -186,7 +186,7 @@
         x="219.01"
         y="12.5"
         data-testid="prs"
-      >293</text>
+      >294</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
@@ -216,7 +216,7 @@
         x="219.01"
         y="12.5"
         data-testid="contribs"
-      >5</text>
+      >6</text>
     </g>
   </g>
     </svg>
